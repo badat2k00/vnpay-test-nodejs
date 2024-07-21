@@ -1,0 +1,1 @@
+order.jade post thông tin tới create_payment_url
