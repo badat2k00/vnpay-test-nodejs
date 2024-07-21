@@ -24,7 +24,9 @@
     "request": "^2.88.2",
     "serve-favicon": "^2.4.5",
     "set-tz": "^0.2.0",
-    "sha256": "^0.2.0"
+    "sha256": "^0.2.0",
+    "uglify-js": "^3.19.0",
+    "vercel": "^35.1.0"
   },
   "description": "1. Cài đặt nodejs lên máy cần chạy. Download nodejs tại: https://nodejs.org/en/\r 2. Vào command (cmd) và chuyển tới thư mục code demo\r 3. Cài đặt module cần thiết bằng lệnh: npm install\r 4. Cấu hình giá trị cho các tham số: vnp_TmnCode,vnp_HashSecret trong file\\vnpay_nodejs\\config\\default.json. Nếu chưa có các thông tin này, vui lòng liên hệ với VNPAY\r 5. Chạy ứng dụng: npm start app.js. Ứng dụng sẽ start ở port 8888.\r 6. Mở trình duyệt và truy cập vào địa chỉ: http://localhost:8888 để bắt đầu chạy demo\r 7. Thông tin hướng dẫn kết nối tham khảo thêm tại địa chỉ: https://sandbox.vnpayment.vn/apis/",
   "main": "app.js",
