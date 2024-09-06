@@ -9,7 +9,7 @@ let router = express.Router();
 let $ = require('jquery');
 const request = require('request');
 const moment = require('moment');
-
+const cors= require('cors');
 
 router.get('/', function(req, res, next){
     res.render('orderlist', { title: 'Danh sách đơn hàng' })
